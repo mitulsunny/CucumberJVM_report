@@ -1,0 +1,116 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature-i-want-to-use-this-template-for-my-feature-file;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 142614998,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to write a step with precondition",
+            "match": {
+              "location": "Mains.i_want_to_write_a_step_with_precondition()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2769041,
+              "error_message": "java.lang.AssertionError: expected [2] but found [1]\n\tat org.testng.Assert.fail(Assert.java:97)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:839)\n\tat org.testng.Assert.assertEquals(Assert.java:849)\n\tat com.osa.steps.Mains.i_complete_action(Mains.java:18)\n\tat ✽.When I complete action(main.feature:7)\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "I complete action",
+            "match": {
+              "location": "Mains.i_complete_action()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I validate the outcomes",
+            "match": {
+              "location": "Mains.i_validate_the_outcomes()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Title of your scenario 1",
+        "description": "",
+        "id": "title-of-your-feature-i-want-to-use-this-template-for-my-feature-file;title-of-your-scenario-1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 99918,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to write a step with precondition",
+            "match": {
+              "location": "Mains.i_want_to_write_a_step_with_precondition()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67630,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I complete action1",
+            "match": {
+              "location": "Mains.i_complete_action1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59178,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I validate the outcomes",
+            "match": {
+              "location": "Mains.i_validate_the_outcomes()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature I want to use this template for my feature file",
+    "description": "",
+    "id": "title-of-your-feature-i-want-to-use-this-template-for-my-feature-file",
+    "keyword": "Feature",
+    "uri": "main.feature"
+  }
+]
